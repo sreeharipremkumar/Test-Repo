@@ -1,0 +1,7 @@
+roslaunch turtlebot3_gazebo house_world.launch  //to open the world in gazebo
+
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping //to open SLAM in RViz
+
+roslaunch turtlebot3_gazebo turtlebot3_simulation.launch // to open autonomous navigation program
+
+
